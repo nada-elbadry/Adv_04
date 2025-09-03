@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Non Generic - HashTable 
+
+            //Hashtable hashtable = new Hashtable(new StringEqualityComparer())
+            //{
+            //	["Mona"] = 111,
+            //	["Salma"] = 222,
+            //	["Amr"] = 333
+            //};
+            #endregion
         }
     }
 }
