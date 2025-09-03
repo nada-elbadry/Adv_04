@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dictionary\" />
+    <Compile Remove="HashTable\StringEqualityComparer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="HashTable\StringEqualityComparer.cs" />
   </ItemGroup>
 
 </Project>
