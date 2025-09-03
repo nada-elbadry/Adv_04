@@ -13,6 +13,16 @@
             //	["Amr"] = 333
             //};
             #endregion
+
+            #region Custom Equality Comparer
+
+            //hashtable.Add("mona", 1000); // ArgumentException
+
+
+            //foreach (var item in hashtable)
+            //	Console.WriteLine(item);
+
+            #endregion
         }
     }
 }
